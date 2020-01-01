@@ -1,0 +1,193 @@
+body{
+    background-color: #1C1F24;
+    color: rgba(173, 173, 173, 1);
+}
+#site-title{
+    color: #AB0000;
+    font-size: xx-large;
+}
+
+.home-video-title{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #CCCCCC;
+    font-size: medium;
+}
+.home-video{
+    height: 200px;
+    border: 1px solid #D75813;
+}
+.home-video:hover{
+    cursor: pointer;
+    border: 1px solid #AB0000;
+}
+#footer{
+    background-color: #000000;
+}
+#contacts-link{
+    color: #AB0000;
+    font-weight: bold;
+}
+.search_button{
+    cursor: pointer;
+}
+.video-thumb {
+    background-color: #000000;
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.film-title{
+    /* white-space: nowrap; Запрещаем перенос строк */
+    /* overflow: hidden; Обрезаем все, что не помещается в область */
+    background: #000; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    /* text-overflow: ellipsis; Добавляем многоточие */
+    border:1px solid #D75813;
+    font-size: medium;
+}
+.green-host-link{
+    color:#070;
+}
+.green-host-link:hover{
+    color:#105998;
+}
+.one-film{
+    /*cursor: pointer;*/
+}
+.video-thumb {
+    cursor:pointer;
+
+    }
+.video-thumb:hover{
+    border: 1px solid #AB0000;
+}
+
+.video-thumb p {
+
+ }
+.text-duration{
+    background-color: #000000;
+}
+.related-list-item{
+    background-color:#464D59;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+/*LOADER*/
+.load-bar {
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height: 6px;
+  background-color: #9D9D99;
+}
+.bar {
+  content: "";
+  display: inline;
+  position: absolute;
+  width: 0;
+  height: 100%;
+  left: 50%;
+  text-align: center;
+}
+.bar:nth-child(1) {
+  background-color: #337AB7;
+  animation: loading 3s linear infinite;
+}
+.bar:nth-child(2) {
+  background-color: #222222;
+  animation: loading 3s linear 1s infinite;
+}
+.bar:nth-child(3) {
+  background-color: #9D9D99;
+  animation: loading 3s linear 2s infinite;
+}
+@keyframes loading {
+    from {left: 50%; width: 0;z-index:100;}
+    33.3333% {left: 0; width: 100%;z-index: 10;}
+    to {left: 0; width: 100%;}
+}
+#loading-information{
+    font-size: x-large;
+
+}
+
+#loader-row{
+    display: none;
+}
+/*LOADER*/
+#h1-video-name{
+    text-transform:uppercase;
+}
+.related-photo{
+    float: left;
+    margin-right: 5px;
+}
+.related-block{
+    background-color: #24282E;
+}
+.related-block:hover{
+    border: 1px solid #AB0000;
+    cursor: pointer;
+}
+
+#full-view{
+    /*display: none;*/
+
+}
+
+.modal-header, .modal-footer, .modal-body{
+    background: #000000;
+    border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.modal-full {
+    min-width: 100%;
+    margin: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}
+
+
+
+#close-modal-btn{
+    background: #FF0000;
+    color: #FFFFFF;
+}
+
+
+
+.fast-link{
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.home-video-title{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #CCCCCC;
+    font-size: medium;
+}
+.home-video{
+    height: 200px;
+    border: 1px solid #D75813;
+}
+.home-video:hover{
+    cursor: pointer;
+    border: 1px solid #AB0000;
+}
